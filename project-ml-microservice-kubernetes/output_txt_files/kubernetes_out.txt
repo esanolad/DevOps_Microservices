@@ -5,3 +5,12 @@ ml-predict-745f554cb8-smhxg   0/1     ContainerCreating   0          0s
 waiting for deployment to run
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+
+Oladipupos-Air:project-ml-microservice-kubernetes esanolad$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
