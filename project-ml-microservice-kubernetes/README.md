@@ -22,6 +22,13 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
+## Files Description
+* app.py : The main file that bootstrap the application
+* make_prediction.sh: A shell script for communication with the application
+* run_docker.sh: shell script for runiing docker commands
+* run_kubernetes: shell script for pushing containers to kubernetes
+* upload_docker.sh: shell script for uploading image to docker hub
+
 
 ## Setup the Environment
 
