@@ -36,6 +36,10 @@ source .devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
 
+* Run `make test` to run build test
+
+* Run `make lint` to lint using hadolint
+
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
