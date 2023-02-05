@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(venv) esanolad@Oladipupos-Air project-ml-microservice-kubernetes % ./run_kubernetes.sh                            
+deployment.apps/ml-predict created
+NAME                          READY   STATUS              RESTARTS   AGE
+ml-predict-745f554cb8-smhxg   0/1     ContainerCreating   0          0s
+waiting for deployment to run
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000

@@ -1,1 +1,33 @@
-<paste log output from Docker prediction, here>
+2023-02-04 20:18:33  * Serving Flask app "app" (lazy loading)
+2023-02-04 20:18:33  * Environment: production
+2023-02-04 20:18:33    WARNING: Do not use the development server in a production environment.
+2023-02-04 20:18:33    Use a production WSGI server instead.
+2023-02-04 20:18:33  * Debug mode: on
+2023-02-04 20:18:33  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2023-02-04 20:18:33  * Restarting with stat
+2023-02-04 20:18:47  * Debugger is active!
+2023-02-04 20:18:47  * Debugger PIN: 194-414-639
+2023-02-04 20:19:05 [2023-02-05 01:19:05,701] INFO in app: JSON payload: 
+2023-02-04 20:19:05 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+2023-02-04 20:19:06 [2023-02-05 01:19:06,077] INFO in app: Inference payload DataFrame: 
+2023-02-04 20:19:06    CHAS     RM    TAX  PTRATIO      B  LSTAT
+2023-02-04 20:19:06 0     0  6.575  296.0     15.3  396.9   4.98
+2023-02-04 20:19:06 [2023-02-05 01:19:06,242] INFO in app: Scaling Payload: 
+2023-02-04 20:19:06    CHAS     RM    TAX  PTRATIO      B  LSTAT
+2023-02-04 20:19:06 0     0  6.575  296.0     15.3  396.9   4.98
+2023-02-04 20:19:06 [2023-02-05 01:19:06,319] INFO in app: [+] Scaling input
+2023-02-04 20:19:06 [2023-02-05 01:19:06,337] INFO in app: Output Prediction Value: [20.35373177134412]
+2023-02-04 20:19:06 [2023-02-05 01:19:06,339] INFO in app: [+] Result sent to client
+2023-02-04 20:19:06 172.17.0.1 - - [05/Feb/2023 01:19:06] "POST /predict HTTP/1.1" 200 -
+2023-02-04 20:19:14 [2023-02-05 01:19:14,414] INFO in app: JSON payload: 
+2023-02-04 20:19:14 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+2023-02-04 20:19:14 [2023-02-05 01:19:14,567] INFO in app: Inference payload DataFrame: 
+2023-02-04 20:19:14    CHAS     RM    TAX  PTRATIO      B  LSTAT
+2023-02-04 20:19:14 0     0  6.575  296.0     15.3  396.9   4.98
+2023-02-04 20:19:14 [2023-02-05 01:19:14,731] INFO in app: Scaling Payload: 
+2023-02-04 20:19:14    CHAS     RM    TAX  PTRATIO      B  LSTAT
+2023-02-04 20:19:14 0     0  6.575  296.0     15.3  396.9   4.98
+2023-02-04 20:19:14 [2023-02-05 01:19:14,786] INFO in app: [+] Scaling input
+2023-02-04 20:19:14 [2023-02-05 01:19:14,817] INFO in app: Output Prediction Value: [20.35373177134412]
+2023-02-04 20:19:14 [2023-02-05 01:19:14,819] INFO in app: [+] Result sent to client
+2023-02-04 20:19:14 172.17.0.1 - - [05/Feb/2023 01:19:14] "POST /predict HTTP/1.1" 200 -
