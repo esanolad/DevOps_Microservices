@@ -4,11 +4,11 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker buildx build --platform=linux/amd64 --tag esanolad/flaskapp .
+docker buildx build --platform=linux/amd64 --tag flaskapp .
 # Step 2: 
 # List docker images
 docker images
 
 # Step 3: 
 # Run flask app
-docker run -d --name ml-app -p 8000:80 esanolad/flaskapp
+docker run -d --name ml-app -p 8000:80 flaskapp
